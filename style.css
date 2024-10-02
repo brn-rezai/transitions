@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(241, 227, 234);
+}
+
+main {
+    position: relative;
+    margin: 100px auto;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.bw {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.bg {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    position: absolute;
+}
+
+.bp {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(159, 125, 190, 0.562);
+    z-index: 1;
+}
+
+.t-1:hover {
+    transform: rotate(45deg);
+    transition-duration: 1s;
+}
+
+.t-2:hover {
+    transform: scaleY(0.6);
+    transition-duration: 1s;
+}
+
+.t-3:hover {
+    transform: scalex(0.6);
+    transition-duration: 1s;
+}
+
+.t-4:hover {
+    transform: scale(2, 2);
+    transition-duration: 1s;
+}
+
+.t-5:hover {
+    transform: scalex(2);
+    transition-duration: 1s;
+}
+
+.t-6:hover {
+    transform: scaleY(2);
+    transition-duration: 1s;
+}
+
+.t-7:hover {
+
+    transform: skewx(45deg);
+    transition-duration: 1s;
+}
+
+.t-8:hover {
+
+    transform: skewy(45deg);
+    transition-duration: 1s;
+}
+
+.t-9:hover {
+    transform: translate(30px, 20px);
+    transition-duration: 1s;
+}
+
+.t-10:hover {
+    transform: translatex(40px);
+    transition-duration: 1s;
+}
+
+.t-11:hover {
+    transform: translatey(40px);
+    transition-duration: 1s;
+}
+
+.t-12:hover {
+    transform: matrix(2, 1.6, 0, 2, 35, -20);
+    transition-duration: 1s;
+}
+
+.t-13:hover {}
+
+.t-14:hover {
+    transform: rotatey(60deg);
+    transition-duration: 1s;
+}
