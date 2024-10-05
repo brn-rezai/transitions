@@ -25,6 +25,8 @@ section {
     justify-content: center;
     align-items: center;
     margin: 10px;
+
+   
 }
 
 .bg {
@@ -32,6 +34,7 @@ section {
     height: 80px;
     background-color: #ccc;
     position: absolute;
+
 }
 
 .bp {
@@ -39,7 +42,7 @@ section {
     height: 80px;
     background-color: rgba(159, 125, 190, 0.562);
     z-index: 1;
-}
+} 
 
 .t-1:hover {
     transform: rotate(45deg);
@@ -106,6 +109,5 @@ section {
 .t-13:hover {}
 
 .t-14:hover {
-    transform: rotatey(60deg);
-    transition-duration: 1s;
+
 }
