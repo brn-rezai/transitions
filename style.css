@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: rgb(241, 227, 234);
 }
@@ -26,7 +30,7 @@ section {
     align-items: center;
     margin: 10px;
 
-   
+
 }
 
 .bg {
@@ -34,7 +38,6 @@ section {
     height: 80px;
     background-color: #ccc;
     position: absolute;
-
 }
 
 .bp {
@@ -42,72 +45,189 @@ section {
     height: 80px;
     background-color: rgba(159, 125, 190, 0.562);
     z-index: 1;
-} 
+}
+
+.t-1,
+.t-2,
+.t-3,
+.t-4,
+.t-5,
+.t-6,
+.t-7,
+.t-8,
+.t-9,
+.t-10,
+.t-11,
+.t-12,
+.t-13,
+.t-14,
+.t-15,
+.t-16,
+.t-17,
+.t-18,
+.t-19,
+.t-20,
+.t-21,
+.t-22,
+.t-23,
+.t-24,
+.t-25,
+.t-26 {
+
+    transition: all linear 1s;
+}
 
 .t-1:hover {
     transform: rotate(45deg);
-    transition-duration: 1s;
+
 }
 
 .t-2:hover {
     transform: scaleY(0.6);
-    transition-duration: 1s;
 }
 
 .t-3:hover {
     transform: scalex(0.6);
-    transition-duration: 1s;
 }
 
 .t-4:hover {
     transform: scale(2, 2);
-    transition-duration: 1s;
 }
 
 .t-5:hover {
-    transform: scalex(2);
-    transition-duration: 1s;
+    transform: scaleX(2);
 }
 
 .t-6:hover {
     transform: scaleY(2);
-    transition-duration: 1s;
 }
 
 .t-7:hover {
-
-    transform: skewx(45deg);
-    transition-duration: 1s;
+    transform: skewX(45deg);
 }
 
 .t-8:hover {
-
     transform: skewy(45deg);
-    transition-duration: 1s;
 }
 
 .t-9:hover {
     transform: translate(30px, 20px);
-    transition-duration: 1s;
 }
 
 .t-10:hover {
-    transform: translatex(40px);
-    transition-duration: 1s;
+    transform: translateX(40px);
 }
 
 .t-11:hover {
-    transform: translatey(40px);
-    transition-duration: 1s;
+    transform: translateY(40px);
 }
 
 .t-12:hover {
-    transform: matrix(2, 1.6, 0, 2, 35, -20);
-    transition-duration: 1s;
+    transform: scale(1.5, 2) skewY(35deg) translateX(10px) translateY(-20px);
+
 }
 
-.t-13:hover {}
+.t-13:hover {
+    transform: perspective(30px) rotatex(30deg) translatey(-10px);
+}
 
 .t-14:hover {
+    transform: perspective(100px) rotateY(40deg) translatex(-10px);
+}
 
+.t-15 {
+    transform-origin: top right;
+
+}
+
+.t-15:hover {
+    transform: rotate(45deg);
+}
+
+.t-16 {
+    transform-origin: bottom left;
+}
+
+.t-16:hover {
+    transform: rotate(45deg);
+}
+
+.t-17 {
+    transform-origin: bottom;
+}
+
+.t-17:hover {
+    transform: perspective(30px) rotatex(10deg);
+}
+
+.t-18 {
+    transform-origin: top;
+}
+
+.t-18:hover {
+    transform: perspective(250px) rotatex(50deg);
+}
+
+.t-19 {
+    transform-origin: left;
+}
+
+.t-19:hover {
+    transform: perspective(30px) rotatey(10deg);
+}
+
+.t-20 {
+    transform-origin: right;
+}
+
+.t-20:hover {
+    transform: perspective(250px) rotateY(50deg);
+}
+
+.t-21 {
+    transform-origin: top right;
+}
+
+.t-21:hover {
+    transform: scale(2, 2);
+}
+
+.t-22 {
+    transform-origin: bottom left;
+}
+
+.t-22:hover {
+    transform: scale(2, 2);
+}
+
+.t-23 {
+    transform-origin: right;
+}
+
+.t-23:hover {
+    transform: scaleX(2);
+}
+
+.t-24 {
+    transform-origin: left;
+}
+
+.t-24:hover {
+    transform: scaleX(2);
+}
+
+.t-25 {
+    transform-origin: top;
+}
+
+.t-25:hover {
+    transform: scaleY(2);
+}
+
+.t-26 {
+    transform-origin: bottom;
+}
+
+.t-26:hover {
+    transform: scaleY(2);
 }
